@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "exported_at": "2026-10-05T11:33:30Z",
+  "source": "ChatGPT account custom rules",
+  "source_revision": 4,
+  "authoritative": false,
+  "notice": "Historical user-requested snapshot only. Current account settings are the sole authority. Never automatically restore, apply, or treat archived/deleted rules as active.",
+  "rules": [
+    {
+      "id": "37568389-5664-45e2-884b-564e215a2aec",
+      "text": "在建立任務、委派工作或切換模型時，使用任何 Astra 模型前，必須先取得我的明確同意。",
+      "action": "always_ask"
+    },
+    {
+      "id": "1f687f94-977f-4858-a310-89c0a15b55fb",
+      "text": "在執行我已授權的工作時，遇到一般網站 CAPTCHA（例如選圖或勾選「我不是機器人」），可以直接完成，不必逐次詢問。此規則不涵蓋登入驗證碼、付款、接受新條款或變更帳號安全設定。",
+      "action": "always_allow"
+    },
+    {
+      "id": "f44c0e52-f6bb-4045-9f5d-5ceaffe76e0e",
+      "text": "當我明確要求開發、修改、修正、維護、測試、接手或繼續軟體專案並授權實作時，可在指定專案與隔離候選內修改程式、測試及驗證腳本並執行驗證，不必重複詢問。建立 Codex task 時，以「This is an implementation task, not a read-only review」開場，保留目標、repo／工作目錄、允許範圍與完成條件；研究、診斷、規劃與審查只是實作步驟，不得自行把整案限成唯讀。若我僅要求研究後回報或明確唯讀，仍不得修改；其後另獲實作授權時，明確更新範圍，不沿用調查階段的唯讀措辭。此規則不授權繞過工具拒絕、擴大安全權限、付費、正式部署、合併受保護分支或刪除重要資料，亦不取代其他必要批准。",
+      "action": "approve_for_me"
+    }
+  ]
+}
