@@ -10,6 +10,7 @@
 
 - `README.md`：用途與更新方式
 - `rules.json`：由目前帳號設定匯出的規則快照，包含匯出時間、來源版本及規則原文
+- [`docs/slack-workflow.md`](docs/slack-workflow.md)：Slack 協作與 GitHub 通知的第一版操作文件，不是新增規則或自動化設定
 
 ## 更新方式
 

@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "exported_at": "2026-10-05T11:33:30Z",
+  "exported_at": "2026-10-05T15:34:51Z",
   "source": "ChatGPT account custom rules",
-  "source_revision": 4,
+  "source_revision": 6,
   "authoritative": false,
   "notice": "Historical user-requested snapshot only. Current account settings are the sole authority. Never automatically restore, apply, or treat archived/deleted rules as active.",
   "rules": [
@@ -20,6 +20,11 @@
       "id": "f44c0e52-f6bb-4045-9f5d-5ceaffe76e0e",
       "text": "當我明確要求開發、修改、修正、維護、測試、接手或繼續軟體專案並授權實作時，可在指定專案與隔離候選內修改程式、測試及驗證腳本並執行驗證，不必重複詢問。建立 Codex task 時，以「This is an implementation task, not a read-only review」開場，保留目標、repo／工作目錄、允許範圍與完成條件；研究、診斷、規劃與審查只是實作步驟，不得自行把整案限成唯讀。若我僅要求研究後回報或明確唯讀，仍不得修改；其後另獲實作授權時，明確更新範圍，不沿用調查階段的唯讀措辭。此規則不授權繞過工具拒絕、擴大安全權限、付費、正式部署、合併受保護分支或刪除重要資料，亦不取代其他必要批准。",
       "action": "approve_for_me"
+    },
+    {
+      "id": "32d67453-7e7d-4154-ad0d-171cdcb02034",
+      "text": "當工作已有我指定用途與接收對象的 Slack 對話時，優先在該處討論、回報及整理交接；可自行發布該工作相關的非敏感目標、決策、進度、測試結果及下一步，不必逐次詢問。沒有明確對應對話時，先在目前對話處理。不得轉貼秘密或未授權的私人資訊；不因此授權聯絡其他 AI、擴大存取權限、付費或部署。",
+      "action": "always_allow"
     }
   ]
 }
