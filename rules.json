@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "exported_at": "2026-10-05T15:34:51Z",
+  "exported_at": "2026-10-06T00:48:58Z",
   "source": "ChatGPT account custom rules",
-  "source_revision": 6,
+  "source_revision": 7,
   "authoritative": false,
   "notice": "Historical user-requested snapshot only. Current account settings are the sole authority. Never automatically restore, apply, or treat archived/deleted rules as active.",
   "rules": [
@@ -23,7 +23,7 @@
     },
     {
       "id": "32d67453-7e7d-4154-ad0d-171cdcb02034",
-      "text": "當工作已有我指定用途與接收對象的 Slack 對話時，優先在該處討論、回報及整理交接；可自行發布該工作相關的非敏感目標、決策、進度、測試結果及下一步，不必逐次詢問。沒有明確對應對話時，先在目前對話處理。不得轉貼秘密或未授權的私人資訊；不因此授權聯絡其他 AI、擴大存取權限、付費或部署。",
+      "text": "在我已指定用途與接收對象的 Slack 頻道，可主動發布與整理工作相關的目標、決策、進度、測試、阻塞、下一步，以及帳戶設定、費用、備份容量、驗證與排除項目摘要，不必逐次詢問。可為新任務、重要階段結果、重大決策或新阻塞建立主訊息與討論串；同一事項細節延續原串。難以回溯時可另開交接串並互留連結，保留歷史，同一事項只維護一個主要討論串。沒有明確對應頻道時先在目前對話處理。發布前移除金鑰、密碼、權杖、驗證碼、登入或含憑證連結及付款卡資料；醫療、金融資產、未成年人或他人的私人資訊須另獲明確授權。此規則不授權刪除訊息、更改頻道或成員、擴大權限、聯絡其他 AI、付費或部署。",
       "action": "always_allow"
     }
   ]
