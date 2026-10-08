@@ -12,6 +12,8 @@
 - `rules.json`：由目前帳號設定匯出的規則快照，包含匯出時間、來源版本及規則原文
 - [`docs/slack-workflow.md`](docs/slack-workflow.md)：Slack 協作與 GitHub 通知的操作文件，不是新增規則或自動化設定
 
+- [`docs/model-effort-workflow.md`](docs/model-effort-workflow.md)：彈性調整模型 effort 的工作偏好，不是權限規則
+
 ## 更新方式
 
 1. 先在帳號設定中確認並完成規則變更
